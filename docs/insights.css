@@ -1,0 +1,33 @@
+.intel-view{--intel-green:#216f67;--intel-blue:#2a55be;display:grid;gap:18px;color:var(--ink)}
+.intel-view .page-intro{margin:0}.intel-tabs{display:flex;gap:3px;width:fit-content;max-width:100%;padding:4px;border:1px solid #e1e7f2;background:#eaf0f8;border-radius:12px}
+.intel-tabs button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:8px 15px;border-radius:8px;font-size:14px;color:#485d75}
+.intel-tabs .current{background:white;box-shadow:0 1px 5px #22395222;color:#264fa8;font-weight:700}
+.intel-card{min-width:0;background:#fff;border:1px solid var(--line);border-radius:17px}
+.intel-panel,.intel-impact{padding:clamp(16px,2.2vw,28px)}
+.intel-view h2{font-size:clamp(17px,1.65vw,21px);letter-spacing:-.4px}.intel-view h3{font-size:16px}
+.intel-card-title{display:flex;align-items:flex-start;gap:13px}.intel-icon{background:#edf1ff;color:var(--intel-blue);display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;flex:none}.intel-icon.mint{background:#def2ec;color:var(--intel-green)}
+.intel-panel>p,.intel-card-title p,.intel-career-result>p,.intel-result p{color:var(--muted);font-size:14px;line-height:1.8}
+.intel-fields{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+.intel-fields label,.intel-goal>label{display:grid;gap:5px;font-size:14px;color:#425570;font-weight:600}
+.intel-fields select,.intel-goal textarea{width:100%;border:1px solid #cbd5e5;color:#253c5e;background:#fff;border-radius:9px;padding:8px 12px;font-size:14px;font-weight:400}
+.intel-fields select{appearance:none;padding-inline-end:30px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none' stroke='%235d6d83' stroke-width='1.6'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");background-position:9px center;background-repeat:no-repeat}
+.intel-result{border:1px solid #dbe9e5;background:linear-gradient(110deg,#fbfdfd,#f0f8f6);border-radius:13px;padding:14px}
+.intel-result>div:first-child{display:flex;align-items:center;gap:10px}.intel-result>div:first-child>.intel-icon{width:30px;height:30px;border-radius:8px}.intel-result p{color:#355950}
+.intel-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
+.intel-metric{display:grid;justify-items:start;align-content:start;gap:4px;padding:10px 13px;background:#fff;border:1px solid #dde7e9;border-radius:10px}
+.intel-metric span,.intel-metric small{font-size:13px;color:#52647b;line-height:1.5}.intel-metric b{font-size:20px;line-height:1.5;color:#223b5f}.intel-metric.indigo b{color:#3457b0}
+.intel-notes{margin-top:12px;font-size:13px;color:#566a80}.intel-notes summary{cursor:pointer;display:inline-flex;gap:5px;align-items:center;color:#375680;font-weight:600}.intel-notes p{margin:5px 0 0;line-height:1.9}
+.intel-secondary{display:grid;grid-template-columns:1.1fr 1fr;gap:15px;align-items:start}.intel-secondary h2{display:flex;gap:8px;align-items:center}.intel-secondary h2 svg{color:#4673b7}
+.intel-tablewrap{overflow-x:auto}.intel-view table{border-collapse:collapse;width:100%;margin-top:10px;font-size:14px}
+.intel-view th,.intel-view td{text-align:start;border-bottom:1px solid #e7ebf1;padding:8px 4px}.intel-view th{font-size:12px;color:#58708e}.intel-view td:not(:first-child){text-align:center;white-space:nowrap}.intel-view th:not(:first-child){text-align:center}
+.intel-view tr:last-child td{border-bottom:0}.intel-course{display:grid;text-align:start;gap:2px;padding:3px 0;font-size:14px}.intel-course:hover{color:var(--intel-blue)}.intel-course bdi,.intel-skill-head bdi{font:12px Arial,sans-serif;color:#596d89;letter-spacing:.025em}.intel-delay{color:#a25b1c;font-weight:700}
+.intel-term{border-bottom:1px solid var(--line);font-size:14px}.intel-term:last-child{border:none}.intel-term summary{display:flex;gap:8px;align-items:center;cursor:pointer;list-style:none;padding:11px 0}.intel-term summary::-webkit-details-marker{display:none}.intel-term summary>span{flex:1;font-weight:600}.intel-term summary>b{font-size:13px;color:#546984}.intel-term[open] summary svg{transform:rotate(180deg)}
+.intel-term-plans{display:grid;gap:8px;background:#f5f7fa;border-radius:8px;font-size:13px;padding:11px;margin-bottom:10px}.intel-term-plans strong{color:#324e72}.intel-term-plans p{color:#596779;line-height:1.8}
+.intel-goal{margin-top:19px}.intel-goal textarea{margin-top:5px;resize:vertical;font-size:15px;line-height:1.7}.intel-goal-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:9px}.intel-goal-actions>div{display:flex;gap:6px;flex-wrap:wrap}
+.intel-prompt{font-size:12px;color:#426274;border:1px solid #d4e8e2;background:#f0f8f5;border-radius:20px;padding:4px 10px}.intel-prompt:hover{background:#e3f2ed}
+.intel-neutral{background:#f4f7fb;border:1px solid #e4e9f0;color:#4d637e;border-radius:10px;padding:13px 15px;margin-top:12px;font-size:14px}
+.intel-career-result{margin-top:24px;padding-top:20px;border-top:1px solid var(--line)}.intel-career-group{margin-top:19px}.intel-career-group h3{color:#31516e}
+.intel-skill-course{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:14px 0;border-bottom:1px solid var(--line)}.intel-skill-course:last-child{border:none}.intel-skill-course .btn{font-size:13px;white-space:nowrap}
+.intel-skill-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.intel-skill-head strong{font-size:15px}.intel-skill-course p{color:#57697d;font-size:14px}.intel-skill-course small{font-size:12px;color:#376e66}
+@media(max-width:900px){.intel-secondary{grid-template-columns:1fr}.intel-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.intel-fields label:first-child{grid-column:1/-1}}
+@media(max-width:560px){.intel-view{gap:12px}.intel-panel,.intel-impact{padding:14px}.intel-metrics{gap:5px}.intel-metric{padding:7px 6px}.intel-metric span,.intel-metric small{font-size:11px}.intel-metric b{font-size:16px}.intel-tabs{width:100%}.intel-tabs button{flex:1;padding:8px 5px;font-size:13px}.intel-fields{gap:8px}.intel-fields label{font-size:12px}.intel-goal-actions>.btn{width:100%}.intel-skill-course{align-items:flex-start;flex-direction:column;gap:8px}.intel-result{padding:9px}}

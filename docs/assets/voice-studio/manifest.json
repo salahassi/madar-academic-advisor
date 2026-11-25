@@ -1,0 +1,64 @@
+{
+  "encoder": [
+    {
+      "file": "encoder-1-18455095.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "encoder-2-e8abda2f.bin",
+      "bytes": 5095822
+    }
+  ],
+  "denoiser": [
+    {
+      "file": "denoiser-1-d48a8183.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "denoiser-2-43a40e8e.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "denoiser-3-5efd0db2.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "denoiser-4-c67d7e0e.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "denoiser-5-6dd5b4d1.bin",
+      "bytes": 2563424
+    }
+  ],
+  "decoder": [
+    {
+      "file": "decoder-1-eb49fba7.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "decoder-2-ed52f375.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "decoder-3-6f324921.bin",
+      "bytes": 15728640
+    },
+    {
+      "file": "decoder-4-96f1e12c.bin",
+      "bytes": 3602341
+    }
+  ],
+  "voice": [
+    {
+      "file": "m1-557ffde8.bin",
+      "bytes": 51712
+    }
+  ],
+  "index": [
+    {
+      "file": "unicode-548459c3.bin",
+      "bytes": 131072
+    }
+  ]
+}

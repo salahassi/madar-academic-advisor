@@ -1,0 +1,36 @@
+.opt-page {display:grid;gap:19px;--opt-blue:#2d57b6;--opt-navy:#172e57;--opt-line:#dce4ef}
+.opt-page .page-intro {margin:0}
+.opt-editor,.opt-card {background:#fff;border:1px solid var(--opt-line);border-radius:16px;min-width:0}
+.opt-editor {padding:21px 24px 17px}
+.opt-headline,.opt-card header,.opt-formend,.opt-review,.opt-resultshead,.opt-note,.opt-impact {display:flex;align-items:center;gap:12px}
+.opt-symbol {flex:none;width:37px;height:37px;display:grid;place-items:center;color:#4064b3;background:#edf2fe;border-radius:11px}
+.opt-headline h2,.opt-results h2 {margin:0;font-size:20px}
+.opt-headline p,.opt-resultshead p {font-size:14px;color:var(--muted);margin:2px 0}
+.opt-fields {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:20px 0 15px}
+.opt-field {min-width:0;display:grid;gap:6px;text-align:start}
+.opt-field>span {font-weight:600;font-size:13px;color:#435574}
+.opt-field select {width:100%;appearance:none;border:1px solid #d8e1ed;border-radius:9px;background-color:#fff;color:#263c5f;font:inherit;font-size:14px;min-height:42px;cursor:pointer;padding:7px 10px 7px 25px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23596984' stroke-width='1.7'%3E%3Cpath d='m5 9 7 7 7-7'/%3E%3C/svg%3E");background-position:left 8px center;background-repeat:no-repeat}
+.opt-formend,.opt-review,.opt-resultshead {justify-content:space-between;flex-wrap:wrap}
+.opt-toggle {display:flex;align-items:center;gap:9px;font-size:14px;color:#415576;cursor:pointer}
+.opt-toggle input {width:16px;height:16px;accent-color:var(--opt-blue)}
+.opt-small,.opt-review small,.opt-stats small,.opt-facts>span,.opt-class small{font-size:13px;color:#5c6c84}
+.opt-results {display:grid;gap:13px;min-width:0}
+.opt-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(238px,100%),1fr));gap:14px;align-items:stretch}
+.opt-card {padding:17px 18px 14px;display:flex;flex-direction:column;gap:16px}
+.opt-card.opt-first {border-color:#aabde7;box-shadow:inset 0 3px 0 #466bc0}
+.opt-card header {gap:9px}.opt-card header .opt-symbol{width:32px;height:32px}.opt-card h3 {font-size:16px;margin:0}
+.opt-stats {display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:3px;color:var(--opt-navy)}
+.opt-stats>div {display:grid;align-items:start;text-align:start;gap:0}.opt-stats b{font:700 23px/1.3 MadarArabic,Arial,sans-serif;justify-self:start}.opt-stats small{font-size:12px}
+.opt-stripes {display:grid;gap:4px;padding:10px 11px;background:#f5f7fb;border-radius:10px}
+.opt-stripe {display:grid;align-items:center;grid-template-columns:48px minmax(0,1fr);gap:6px;min-height:16px}
+.opt-stripe small {font-size:11px;color:#445670}.opt-stripe>div{height:8px;background:#e5eaf2;border-radius:4px;position:relative}.opt-stripe i{position:absolute;height:100%;border-radius:3px}
+.opt-facts {display:grid;grid-template-columns:1fr auto;gap:5px 8px;align-items:baseline}
+.opt-facts>span,.opt-facts b {font-size:12px;line-height:1.7}.opt-facts b{color:#314a6f}
+.opt-review {margin-top:auto;border-top:1px solid #e8edf4;padding-top:11px;gap:6px}
+.opt-review .btn{font-size:13px;padding:6px 9px}.opt-review small {font-size:12px}
+.opt-note,.opt-impact {border:1px solid #d7e5f7;color:#355278;background:#edf4fd;border-radius:10px;font-size:14px;padding:10px 13px;align-items:flex-start}
+.opt-note svg,.opt-impact svg{flex:none;margin-top:4px}.opt-note p,.opt-impact{margin:0}
+.opt-class {display:flex;align-items:center;gap:10px;justify-content:space-between;border-bottom:1px solid #e6ebf2;padding:11px 0}
+.opt-class strong,.opt-class small{display:block}.opt-class strong{font-size:14px}.opt-class small{margin-top:1px}.opt-tag{font-size:12px;color:#52647c;background:#f0f3f8;padding:2px 8px;border-radius:7px;white-space:nowrap}.opt-tag.opt-changed{background:#e9f1ff;color:#2b54a0}.opt-dialog .opt-impact{margin-top:15px}.opt-dialog .quiet{margin:0}
+@media(max-width:1100px){.opt-fields{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:640px){.opt-editor,.opt-card{padding:16px}.opt-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.opt-headline p,.opt-resultshead p{font-size:13px}.opt-grid{grid-template-columns:1fr}.opt-field select{font-size:13px}.opt-formend .btn{font-size:13px}.opt-headline{align-items:flex-start}.opt-symbol{width:32px;height:32px}.opt-headline h2,.opt-results h2{font-size:17px}}

@@ -1,0 +1,6 @@
+libtashkeel — Arabic diacritic restoration model.
+Copyright © 2023 Musharraf Omer. MIT license (LICENSE.txt).
+Upstream: https://github.com/mush42/libtashkeel
+Model and original symbol maps mirror: https://huggingface.co/TigreGotico/libtashkeel-diacritizer/tree/ee43300a96e8fec13d573699d993b76c1aacf983
+Model: libtashkeel.onnx, sha256 52c40d42ca094ff9ff07a091d0a1eafd7baa5cf2388e60a9cc89bacd8e5e955f.
+Input mapping: libtashkeel.maps.json, sha256 e7bdde4717cbbedd4b287a6dc13727c51f305dc89da49dcf49163bf113f62b44.

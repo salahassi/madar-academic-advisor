@@ -1,0 +1,15 @@
+Transformers.js 2.17.2, copyright Hugging Face and contributors.
+The bundled transformers.min.js is provided under Apache-2.0.
+https://www.npmjs.com/package/@xenova/transformers/v/2.17.2
+
+ONNX Runtime Web 1.14.0, copyright Microsoft Corporation and contributors.
+The WASM runtime files are provided under the MIT license.
+https://github.com/microsoft/onnxruntime/tree/v1.14.0
+
+The optional model is downloaded directly from Xenova/whisper-tiny.
+Revision 5332fcc35e32a33b86612b9a57a89be7906102b1, model card Apache-2.0.
+https://huggingface.co/Xenova/whisper-tiny/tree/5332fcc35e32a33b86612b9a57a89be7906102b1
+
+Quantized ONNX weights:
+encoder SHA-256 fd9d995b9dcb0520f0dbf6cf68651af639fc385f594d9d876e69ca2802dc438e
+merged decoder SHA-256 6c0c125986b007d2e3734bec84c18bda0152071b90b87fadac6d7764499927a0

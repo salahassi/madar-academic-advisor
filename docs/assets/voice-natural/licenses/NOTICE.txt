@@ -1,0 +1,24 @@
+Madar's lightweight Arabic speech option
+
+Speech model and reference style
+Nabra-7M-Distill, exported to ONNX (FP16), by Oddadmix. Licensed under the Apache License 2.0.
+Madar hosts the model and af_msa style files locally.
+https://huggingface.co/oddadmix/Nabra-7M-Distill-ONNX/tree/bbac0f1e6b001bfae89871be366a4b000180deb2
+model_fp16.onnx SHA256 cafb38ee0d39629c1e228fd7f120bb8dbec896342880f3ac8318cfc10e3f19ff
+af_msa.bin SHA256 129d447a7c9bdce1d5b6cb5ecb789bbfd9f427b7775131a97dfa5638583b3b92
+Architecture credits and original dependency notices are in Nabra-third-party.txt.
+
+Text and phoneme processing
+The included JavaScript modules in g2p/ were obtained from the TypeScript sources at the pinned upstream version below.
+Madar removed TypeScript annotations and added explicit local ECMAScript module extensions.
+The upstream vendor/espeak-ng-ar.mjs is unmodified. Its GNU GPL v3 or later eSpeak NG 1.52.0
+binary/data and the ported phonemizer portions are covered by GPL-3.0.txt.
+The upstream source references, modification history, build script and wrapper are available at:
+https://github.com/Oddadmix/nabra-tts/tree/16b5281ce61993df3526740990cf845a3f3036f4
+https://github.com/espeak-ng/espeak-ng/tree/1.52.0
+Local copies of the wrapper and build script are in this folder.
+
+Inference runtime
+ONNX Runtime Web 1.23.2, Copyright Microsoft Corporation. Licensed under the MIT License.
+https://github.com/microsoft/onnxruntime/tree/v1.23.2
+https://www.npmjs.com/package/onnxruntime-web/v/1.23.2

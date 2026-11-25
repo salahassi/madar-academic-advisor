@@ -1,0 +1,3 @@
+wllama 2.3.7, MIT. The distributed ESM bundle resolves URLs relative to the enclosing worker location instead of document.baseURI. The single-thread llama.cpp WASM is unmodified.
+hash-wasm 4.12.0, MIT. Incremental SHA-256 verifies the official quantized model before loading it.
+Model accessed separately on student request: Qwen/Qwen2.5-0.5B-Instruct-GGUF, Apache-2.0, revision 9217f5db79a29953eb74d5343926648285ec7e67.

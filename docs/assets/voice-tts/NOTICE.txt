@@ -1,0 +1,48 @@
+Madar optional local voice — third-party notices
+
+Arabic Emirati Female Piper voice, Vadim Belsky (vadimbelsky), 2025.
+https://huggingface.co/vadimbelsky/arabic-emirati-female-piper
+Model revision f89f1aec8e6486871ffdf8d878c5a39eaf918d60. The model card
+declares the MIT License. The unmodified model is fetched from its publisher
+only when the visitor enables the optional local voice. Speech output is synthetic.
+
+MIT License
+Copyright (c) the respective authors
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Piper phonemizer, original by Michael Hansen / Rhasspy, MIT license.
+https://github.com/rhasspy/piper-phonemize
+Unmodified browser port, @diffusionstudio/piper-wasm 1.0.0,
+Copyright Konstantin Paulus, package license MIT.
+https://github.com/diffusionstudio/piper-wasm
+Distribution: https://registry.npmjs.org/@diffusionstudio/piper-wasm/-/piper-wasm-1.0.0.tgz
+Browser binaries embed eSpeak NG and language data, copyright Jonathan
+Duddington, Reece H. Dunn and contributors, GPL version 3 or later.
+Source: https://github.com/espeak-ng/espeak-ng
+Upstream build instructions and dependency references are included in
+PHONEMIZER-BUILD.txt. GPL text is in LICENSE-eSpeak-GPL3.txt.
+The package is distributed unmodified as a separately loaded worker dependency.
+
+ONNX Runtime Web v1.14.0, Microsoft Corporation, MIT License.
+https://github.com/microsoft/onnxruntime/tree/v1.14.0
+The unmodified JavaScript backend shares the WASM runtime distributed with
+the local speech-recognition feature. See LICENSE-onnxruntime.txt.
+
+Exact upstream source forks named by the publisher's build recipe:
+https://github.com/rhasspy/espeak-ng
+https://github.com/wide-video/piper-phonemize
+https://github.com/wide-video/piper-wasm

@@ -1,0 +1,17 @@
+Supertonic 3 Arabic speech model, factory M1 voice
+Copyright (c) 2026 Supertone Inc.
+
+Supertonic 3 weights, M1 speaker embedding and Unicode mapping are distributed
+under the BigScience Open RAIL-M license (MODEL-LICENSE.txt), including its
+use restrictions. Source: https://huggingface.co/Supertone/supertonic-3
+Original revision: 3cadd1ee6394adea1bd021217a0e650ede09a323.
+
+The Open World Group converted these ONNX graphs for Transformers.js, including
+the merged text encoder and duration predictor (fp16), quantized denoiser (int8)
+and waveform decoder (fp16). The packaged graphs are split into binary sections
+and reassembled byte for byte in the browser. The original Unicode lookup table
+was converted to signed 16-bit integers. No model training or voice cloning was
+performed for Madar.
+Conversion: https://huggingface.co/open-world-group/Supertonic-3-ONNX
+Conversion revision: 0642207fc25f1a390cde0d7a4536de477d372b4a.
+Runtime: ONNX Runtime Web (MIT), shared in ../voice-natural/.
